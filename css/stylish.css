@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header1{
+    background-color: #2e270d;
+    width: 100%;
+    height: 160px;
+    color: white;
+    
+
+}
+
+#cinimag {
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    position:relative;
+    top: -150px;
+    left: 31px;
+    z-index: 1;
+
+}
+#login {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 4px;
+    right: -1483px;
+}
+
+nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-content:flex-end;
+    position: relative;
+    top: 75px;
+    left: 514px;
+  
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #dba608;
+    font-family: 'Anton', sans-serif;
+}
+nav a:hover {
+    color: white;
+}
+
+
+#k {color:#6ac045; }
+#k:hover { color: teal;}
+
+
+#header2 {
+    background-color: #ecc53d;
+    width: 100%;
+    height: 45px;
+    color: black;
+    position:absolute;
+    top: 160px;
+    left: 0px;
+    border-top: 3px solid white;
+}
+
+#header2 input {
+    width: 350px;
+    height: 35px ;
+    position:absolute;
+    top: 3px;
+    left:1052px;
+    background-color: #2e270d;
+    border: 3px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+}
+
+#lope {
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top: 7px;
+    left: 1058px;
+}
+
+#head {
+    width: 100%;
+    height: 112px;
+    background-color: black;
+    position:absolute;
+    top: 205px;
+    left: 0px;
+    color: white;
+    text-align: center;
+    
+}
+
+#head h1 {
+    font-size: 50px;
+}
+
+#head h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
+#main1 {
+    width: 100%;
+    height: 1500px ;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#main1 a img {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#main1 a img:hover { 
+    border: 3px solid #6ac045 !important; 
+    opacity: 0.3;
+}
+
+/*
+.egame {
+    background-color:#6ac045 ;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    top: 713px;
+    left: 54px;
+}
+*/
+
+    
+    
+
+
+#main2 {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+
+#main2 button {
+    width: 50px;
+    height: 42px;
+    background-color: black;
+    color: gray;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+#main2 .goldbutt {
+    background-color: #dba608;
+    color: white;
+}
+#main2 button:hover {
+    background-color: #dba608;
+    color: white;
+}
+
+
+
+
+
+
+footer {
+    padding: 15px;
+    width: 100%;
+    height: 130px;
+    background-color:#2e270d ;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    #header1{
+        background-color: #2e270d;
+        width: 100%;
+        height: 100px;
+    }
+    #cinimag {
+        width: 300px ;
+        height: 100px;
+    position:relative;
+    top: -100px;
+    left: 0px;
+    }
+
+    nav {
+        width: 500px;
+        position: relative;
+        top: 10px;
+        left: 280px;
+        
+    }
+    
+    nav a {
+        font-size: 20px;
+    }
+
+    #header2 input {
+        top: -110px;
+        left:440px;
+        background-color: #ecc53d;
+        
+    }
+    
+    #lope {
+        top: -106px;
+        left: 440px;
+    }
+
+    #head {
+        height: 120px ;
+        top: 100px;
+        left: 0px;
+    }
+    
+    #head h1 {
+        font-size: 40px;
+    }
+    
+    #main1 {
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    #main1 a img {
+        width: 150px;
+        height: 250px;
+        
+    }
+
+@media only screen and (max-width: 800px) {
+
+    nav {
+        width: 150px;
+        display: flex;
+        flex-wrap :wrap;
+        justify-content: flex-start;
+        position: absolute;
+        top: 4px;
+        left: 303px;
+    }
+    
+    nav a {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+    #header2 input {
+        top: 2px;
+        left: 228px;
+        background-color: #ecc53d;
+        z-index: 1;
+        
+    }
+    #lope {
+        top: 5px;
+        left: 229px;
+        z-index: 1;
+    }
+
+    #head h3 {
+        display: none;
+    }
+    
+    #head h1 {
+        font-size: 40px;
+        margin-top: 5px;
+    }
+    
+    #main1 {
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #main1 a img {
+        width: 100px;
+        height: 200px;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
